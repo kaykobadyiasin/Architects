@@ -2,6 +2,15 @@
     .container{
         width: 90%;
     }
+    header{
+        
+    }
+    .menu ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
     .banner_header {
         width: 80%;
     }
@@ -29,6 +38,17 @@
     .enjoy_contents {
         grid-template-columns: repeat(1, 1fr);
     }
+    .enjoy_right {
+        margin-top: 30px;
+    }
+
+    .enjoy_right img {
+        width: 100%;
+    }
+    .year_box {
+        bottom: -85px;
+        left: 115px;
+    }
 
 
     /* some fact section  */
@@ -38,9 +58,37 @@
         text-align: center;
     }
     .fact_parent {
-        display: inline-block;
-        justify-content: center;
-        /* display:block; */
+        flex-wrap: wrap;
+    }
+    .fact_box {
+        margin-bottom: 30px;
+    }
+    .some_facts {
+        padding: 80px 0;
     }
 
+
+    /* sponsor */
+    .sponspors_hed p {
+        margin: 0 2%;
+    }
+
+    .sponspors_featurse {
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    .sponspors_feature {
+        width: 50%;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .sponspors_feature img {
+        width: 60%;
+    }
+
+    /* footer  */
+    footer {
+        padding: 25px 0;
+    }
 }
