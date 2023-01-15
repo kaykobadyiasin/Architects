@@ -111,8 +111,11 @@ header{
     grid-column-gap: 25px;
     grid-row-gap: 20px;
 }
-.feature_image{
-    
+.feature_image:hover{
+    transition: .3s;
+}
+.feature_image:hover{
+    transform: scale(1.05);
 }
 .feature_image img{
     width: 100%;
@@ -238,6 +241,13 @@ header{
     border: 1px solid #FF900E;
     text-align: center;
     border-radius: 8px;
+    transition: .3s;
+}
+.fact_box:hover{
+    border: 1px solid #424242;
+    text-align: center;
+    border-radius: 8px;
+    transform: scale(1.1);
 }
 .fact_box h3 {
 	font-size: 45px;

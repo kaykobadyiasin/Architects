@@ -2,15 +2,25 @@
     .container{
         width: 90%;
     }
+
+    header {
+        flex-wrap: wrap;
+    }
+    .logo {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
     header{
-        
+
     }
     .menu ul {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
     }
-
+    .banner_main {
+        padding: 50px 0 45px 0;
+    }
     .banner_header {
         width: 80%;
     }
