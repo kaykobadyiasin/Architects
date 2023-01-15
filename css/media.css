@@ -1,0 +1,46 @@
+@media only screen and (max-width: 576px){
+    .container{
+        width: 90%;
+    }
+    .banner_header {
+        width: 80%;
+    }
+    .banner_header h2 {
+        font-size: 40px;
+    }
+
+
+    /* feature section  */
+    .features_flex {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .feature_content {
+        padding-top: 65px;
+        text-align: center;
+    }
+    .feature_content h2 {
+        margin-right:0;
+    }
+    .feature_content p {
+        margin-right: 0;
+    }
+
+    /* feature enjoy */
+    .enjoy_contents {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+    /* some fact section  */
+    .somfact_hed {
+        width: 100%;
+        margin-bottom: 60px;
+        text-align: center;
+    }
+    .fact_parent {
+        display: inline-block;
+        justify-content: center;
+        /* display:block; */
+    }
+
+}
