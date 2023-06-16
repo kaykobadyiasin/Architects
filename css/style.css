@@ -296,6 +296,29 @@ header{
 }
 /* sponspors section start  */
 
+
+.text_center{
+    text-align: center;
+    margin: 70px 0;
+    font-size: 30px;
+}
+
+.Input{
+    width: 100%;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.submit{
+    padding: 8px 20px;
+    background-color: orange;
+     border: 0;
+     border-radius: 5px;
+     font-size: 20px;
+}
+
+
 footer {
 	padding: 130px 0;
 }
@@ -305,3 +328,4 @@ footer {
 	border-radius: 8px;
 	text-align: center;
 }
+

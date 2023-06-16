@@ -2,21 +2,29 @@
     .container{
         width: 90%;
     }
-
     header {
         flex-wrap: wrap;
     }
     .logo {
+        text-align: center;
+        width: 100%;
         margin: 0 auto;
         margin-bottom: 20px;
     }
-    header{
-
+    .menu{
+        margin: 0 auto;
     }
     .menu ul {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        flex-direction: column;
+        padding-left: 0;
+    }
+    .menu ul li{
+        margin-right: 0;
+        margin-bottom: 20px;
+        text-align: center;
     }
     .banner_main {
         padding: 50px 0 45px 0;
@@ -43,7 +51,6 @@
     .feature_content p {
         margin-right: 0;
     }
-
     /* feature enjoy */
     .enjoy_contents {
         grid-template-columns: repeat(1, 1fr);
@@ -56,11 +63,14 @@
         width: 100%;
     }
     .year_box {
-        bottom: -85px;
-        left: 115px;
+        bottom: -80px;
+        left: 22%;
+        width: 270px;
+        height: 150px;
     }
-
-
+    .year_box h4 {
+        margin-top: 30px;
+    }
     /* some fact section  */
     .somfact_hed {
         width: 100%;
@@ -76,17 +86,13 @@
     .some_facts {
         padding: 80px 0;
     }
-
-
     /* sponsor */
     .sponspors_hed p {
         margin: 0 2%;
     }
-
     .sponspors_featurse {
         flex-wrap: wrap;
         justify-content: center;
-
     }
     .sponspors_feature {
         width: 50%;
@@ -96,9 +102,378 @@
     .sponspors_feature img {
         width: 60%;
     }
-
     /* footer  */
     footer {
         padding: 25px 0;
+    }
+}
+
+@media only screen and (min-width: 576.99px) and (max-width: 768px){
+    .container{
+        width: 90%;
+    }
+    header {
+        flex-wrap: wrap;
+    }
+    .banner_header{
+        width: 100%;
+    }
+    .menu{
+        margin: 0 auto;
+    }
+    .menu ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+        padding-left: 0;
+    }
+    .menu ul li{
+        margin-right: 0;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .logo{
+        margin-bottom: 20px;
+        text-align: center;
+        width: 100%;
+    }
+    .logo a {
+        font-size: 60px;
+        font-weight: 700;
+        text-decoration: none;
+        color: #131313;
+    }
+    .banner_header h2 {
+        font-size: 60px;
+    }
+    .banner_main {
+        padding: 30px 0 45px 0;
+    }
+
+    /* feature  */
+    .features_flex {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 60px;
+    }
+    .feature_content {
+        text-align: center;
+    }
+    .feature_content h2 {
+        margin-right: 0;
+    }
+    .feature_content p {
+        margin-right: 0;
+    }
+    .feature_images {
+        grid-row-gap: 20px;
+    }
+    .feature_content {
+        padding-top: 0;
+    }
+
+    /* enjoy  */
+    .enjoy_contents {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .line_left {
+        height: 65px;
+    }
+    .enjoy_right {
+        text-align: center;
+        margin-top: 50px;
+    }
+    .year_box {
+        bottom: -85px;
+        left: 30%;
+    }
+
+/* fact  */
+    .somfact_hed {
+        width: 60%;
+        margin-bottom: 70px !important;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .fact_box {
+        margin-right: 20px;
+    }
+    /* sponspors_feature */
+    .sponspors_feature {
+        margin-right: 4%;
+    }
+    /* footer */
+    footer {
+        padding: 80px 0;
+    }
+    
+}
+
+@media only screen and (min-width: 768.99px) and (max-width: 992px){
+    .container{
+        width: 80%;
+    }
+    header {
+        flex-wrap: wrap;
+    }
+    .banner_header{
+        width: 100%;
+    }
+    .menu{
+        margin: 0 auto;
+    }
+    .menu ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+        padding-left: 0;
+    }
+    .menu ul li{
+        margin-right: 0;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .logo{
+        margin-bottom: 20px;
+        text-align: center;
+        width: 100%;
+    }
+    .logo a {
+        font-size: 60px;
+        font-weight: 700;
+        text-decoration: none;
+        color: #131313;
+    }
+    .banner_header h2 {
+        font-size: 60px;
+    }
+    .banner_main {
+        padding: 30px 0 45px 0;
+    }
+
+    /* feature  */
+    .features_flex {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 60px;
+    }
+    .feature_content {
+        text-align: center;
+    }
+    .feature_content h2 {
+        margin-right: 0;
+    }
+    .feature_content p {
+        margin-right: 0;
+    }
+    .feature_images {
+        grid-row-gap: 20px;
+    }
+    .feature_content {
+        padding-top: 0;
+    }
+
+    /* enjoy  */
+    .enjoy_contents {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .line_left {
+        height: 65px;
+    }
+    .enjoy_right {
+        text-align: center;
+        margin-top: 50px;
+    }
+    .year_box {
+        bottom: -85px;
+        left: 30%;
+    }
+
+/* fact  */
+    .somfact_hed {
+        width: 60%;
+        margin-bottom: 70px !important;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .fact_box {
+        margin-right: 20px;
+    }
+    /* sponspors_feature */
+    .sponspors_feature {
+        margin-right: 4%;
+    }
+    /* footer */
+    footer {
+        padding: 80px 0;
+    }
+}
+
+@media only screen and (min-width: 992.99px) and (max-width: 1200px){
+    .container{
+        width: 90%;
+    }
+    .banner_header {
+        text-align: center;
+        width: 80%;
+    }
+    .logo a {
+        font-size: 60px;
+        font-weight: 700;
+        text-decoration: none;
+        color: #131313;
+    }
+    .banner_header h2 {
+        font-size: 60px;
+    }
+    .banner_main {
+        padding: 30px 0 45px 0;
+    }
+
+    /* feature  */
+    .features_flex {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 60px;
+    }
+    .feature_content {
+        padding-top: 75px !important;
+    }
+    .feature_content h2 {
+        margin-right: 0;
+    }
+    .feature_content p {
+        margin-right: 0;
+    }
+    .feature_images {
+        grid-row-gap: 20px;
+    }
+    .feature_content {
+        padding-top: 0;
+    }
+
+    /* enjoy  */
+    .enjoy_contents {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .line_left {
+        height: 65px;
+    }
+    .enjoy_right {
+        text-align: center;
+        margin-top: 50px;
+    }
+    .enjoy_right img{
+        width: 100%;
+    }
+    .year_box {
+        bottom: -85px;
+        left: 35%;
+    }
+
+/* fact  */
+    .somfact_hed {
+        width: 60%;
+        margin-bottom: 70px !important;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .fact_box {
+        margin-right: 20px;
+    }
+    /* sponspors_feature */
+    .sponspors_feature {
+        margin-right: 4%;
+    }
+    /* footer */
+    footer {
+        padding: 80px 0;
+    }
+}
+
+@media only screen and (min-width: 1200.99px) and (max-width: 1400px){
+    .container{
+        width: 90%;
+    }
+    .banner_header {
+        text-align: center;
+        width: 80%;
+    }
+    .logo a {
+        font-size: 60px;
+        font-weight: 700;
+        text-decoration: none;
+        color: #131313;
+    }
+    .banner_header h2 {
+        font-size: 60px;
+    }
+    .banner_main {
+        padding: 30px 0 45px 0;
+    }
+
+    /* feature  */
+    .features_flex {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 60px;
+    }
+    .feature_content {
+        padding-top: 145px !important;
+    }
+    
+    .feature_content h2 {
+        margin-right: 0;
+    }
+    .feature_content p {
+        margin-right: 0;
+    }
+    .feature_images {
+        grid-row-gap: 20px;
+    }
+    .feature_content {
+        padding-top: 0;
+    }
+
+    /* enjoy  */
+    .enjoy_contents {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .line_left {
+        height: 65px;
+    }
+    .enjoy_right {
+        text-align: center;
+        margin-top: 50px;
+    }
+    .enjoy_right img{
+        width: 100%;
+    }
+    .year_box {
+        bottom: -85px;
+        left: 35%;
+    }
+
+/* fact  */
+    .somfact_hed {
+        width: 60%;
+        margin-bottom: 70px !important;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .fact_box {
+        margin-right: 20px;
+    }
+    /* sponspors_feature */
+    .sponspors_feature {
+        margin-right: 4%;
+    }
+    /* footer */
+    footer {
+        padding: 80px 0;
     }
 }
